@@ -6,9 +6,9 @@ import { FIREBASE_CONFIG }  from './secrets';
 import SignIn from './SignIn';
 import './App.css';
 
-initializeApp(FIREBASE_CONFIG);
+const firebaseApp = initializeApp(FIREBASE_CONFIG);
 
-const auth = getAuth();
+const auth = getAuth(firebaseApp);
 
 function App() {
   const [user] = useAuthState(auth);
