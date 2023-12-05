@@ -2,8 +2,8 @@ import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 import { useAuthState } from 'react-firebase-hooks/auth';
 
-import SignIn from './SignIn';
 import { FIREBASE_CONFIG }  from './secrets';
+import SignIn from './SignIn';
 import './App.css';
 
 initializeApp(FIREBASE_CONFIG);
