@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
 }
 
 .App-header {
@@ -10,4 +12,21 @@
   align-items: center;
   justify-content: center;
   color: white;
+}
+
+.greeting-container {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.btn-sign-in {
+  background-color: #e5cd92;
+  border: none;
+  padding: 0.5rem 1.5rem;
+}
+
+.btn-sign-in:hover {
+  cursor: pointer;
+  background-color: #e6ae20;
 }
