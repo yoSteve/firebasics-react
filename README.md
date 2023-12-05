@@ -1,10 +1,6 @@
-**Strengths:** Sam has the curiosity and drive which will serve him well in his pursuit of software development. He picks things up quickly and applies his newfound knowledge to whatever problem he is working on.
-
-**Growth:** I would like to see Sam take on a greater diversity of projects. Different project present a different array of challenges. This will broaden Sam's experience by forcing him to overcome a new suite of problems. A good strategy for approaching new problems is to break them down into the smallest possible fragments, write small, reusable functions, and then use these functions to build up larger, more complex programs. This strategy helps with clarity and readability.
-
 # Firebasics (The basics of Firebase)
 
-Firebase is an app development platform, built and maintained by Google, that speeds up app development because it provides a _Backend-as-a-Service (BaaS)_. Firebase eliminates the need to write and maintain server-side code - things like user authentication, trusted API calls, security logic, database connections, traffic scaling, and the list goes on. Firebase makes this possible by providing you with a variety of frontend _xxSoftware Development Kits (SDKs)_ that connect your web/mobile apps to various Google Cloud Resources.
+Firebase is an app development platform, built and maintained by Google, that speeds up app development because it provides a _Backend-as-a-Service (BaaS)_. Firebase eliminates the need to write and maintain server-side code - things like user authentication, trusted API calls, security logic, database connections, traffic scaling, etc. Firebase makes this possible by providing you with a variety of frontend _Software Development Kits (SDKs)_ that connect your web/mobile apps to various Google Cloud Resources.
 
 How can we use Firebase to simplify our app development?
 
