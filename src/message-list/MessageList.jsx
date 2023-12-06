@@ -15,7 +15,7 @@ const MessageList = ({ collection }) => {
   });
 
   return (
-    <div>
+    <div className='message-list-container'>
       { error && <strong>Something went wrong</strong> }
 
       { loading && <strong>Loading...</strong> }

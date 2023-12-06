@@ -1,14 +1,18 @@
+.message-list-container {
+  background-color: var(--background-light);
+}
+
 ul {
   list-style: none;
   display: flex;
   flex-direction: column-reverse;
   gap: 1rem;
-  max-width: 25rem;
+  max-width: var(--content-width);
   margin: 2rem auto;
 }
 
 li {
-  background-color: #a3a2af;
+  background-color: var(--tertiary-color);
   border-radius: 8px;
   padding: 0.5rem 2rem;
 }
