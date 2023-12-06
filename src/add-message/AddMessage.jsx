@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { addDoc, serverTimestamp } from 'firebase/firestore';
+import { addDoc } from 'firebase/firestore';
 
 import './AddMessage.css';
 
@@ -9,11 +9,11 @@ const AddMessage = ({ collection, userName }) => {
   const handleSubmit = async (event) => {
     event.preventDefault();
 
-    addDoc(collection, {
-      createdAt: serverTimestamp(),
+    const docRef = await addDoc(collection, {
       from: userName,
       text
     });
+    console.log('Document written with ID:', docRef.id);
   }
 
   return (
