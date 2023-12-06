@@ -16,7 +16,7 @@ function SignIn({ auth }) {
   }
 
   return (
-    <button onClick={toggleSignIn}>{auth.currentUser ? 'Sign out' : 'Sign in'}</button>
+    <button className="btn-sign-in" onClick={toggleSignIn}>{auth.currentUser ? 'Sign out' : 'Sign in'}</button>
   )
 }
 
