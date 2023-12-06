@@ -30,10 +30,10 @@ function App() {
         </div>
       </header>
       <section>
-        <MessageList collection={messagesCollection} />
+        <MessageList collection={messagesCollection} userName={user?.displayName ?? 'System'} />
       </section>
       <footer className="app-footer">
-        {user && <AddMessage collection={messagesCollection} userName={user?.displayName} />}
+        {user && <AddMessage collection={messagesCollection} userName={user.displayName} />}
       </footer>
     </div>
   );
