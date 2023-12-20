@@ -5,7 +5,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 
 
 import { FIREBASE_CONFIG }  from './secrets';
-import SignIn from './SignIn';
+import SignIn from './sign-in/SignIn';
 import './App.css';
 import MessageList from './message-list/MessageList';
 import AddMessage from './add-message/AddMessage';
