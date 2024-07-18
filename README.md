@@ -115,7 +115,7 @@ import { doc, updateDoc } from "firebase/firestore";
 
 async function handleUpdate(newText, documentId) {
   // Get a reference to the document you wish to update in the "messages" collection:
-  const documentRef = doc(db, "messages", documentID);
+  const documentRef = doc(db, "messages", documentId);
 
   // Update the "from" field only:
   await updateDoc(documentRef, {
@@ -131,7 +131,7 @@ import { doc, deleteDoc } from "firebase/firestore";
 
 async function handleDelete(documentId) {
   // Get a reference to the document you wish to delete in the "messages" collection:
-  const documentRef = doc(db, "messages", documentID);
+  const documentRef = doc(db, "messages", documentId);
 
   await deleteDoc(documentRef);
 }
